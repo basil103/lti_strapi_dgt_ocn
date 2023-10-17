@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "req_forms",
+  "info": {
+    "singularName": "req-form",
+    "pluralName": "req-forms",
+    "displayName": "req_form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "client_type": {
+      "type": "string"
+    }
+  }
+}

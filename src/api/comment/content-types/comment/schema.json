@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "post_comment": {
+      "type": "text"
+    },
+    "blog_title": {
+      "type": "string"
+    },
+    "aurthor": {
+      "type": "string"
+    },
+    "date_time": {
+      "type": "string"
+    },
+    "allowed": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

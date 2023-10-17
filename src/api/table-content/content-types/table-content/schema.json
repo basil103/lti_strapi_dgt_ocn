@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_contents",
+  "info": {
+    "singularName": "table-content",
+    "pluralName": "table-contents",
+    "displayName": "table_content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "apply": {
+      "type": "string"
+    },
+    "job_type_ar": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "country_ar": {
+      "type": "string"
+    },
+    "date_ar": {
+      "type": "string"
+    },
+    "apply_ar": {
+      "type": "string"
+    }
+  }
+}

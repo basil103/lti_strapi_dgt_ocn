@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_forms",
+  "info": {
+    "singularName": "career-form",
+    "pluralName": "career-forms",
+    "displayName": "career_form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "client_type": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

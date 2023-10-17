@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "press_contents",
+  "info": {
+    "singularName": "press-content",
+    "pluralName": "press-contents",
+    "displayName": "press_content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "title_ar": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "body_ar": {
+      "type": "richtext",
+      "required": true
+    },
+    "press_img_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
